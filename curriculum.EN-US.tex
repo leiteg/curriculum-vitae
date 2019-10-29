@@ -1,0 +1,256 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass{resume}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{booktabs}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Gustavo Leite}
+\address{Av. Albert Einstein, 1251, Cidade Universitária, Campinas-SP, Brazil, ZIP 13083-852}
+\address{+55 (19) 99721-4443 \\ {\tt contact@gustavoleite.me}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf BSc in Computer Science} \hfill {\em 2013--2016} \\
+{\sc São Paulo State University (UNESP)} \hfill {\em Rio Claro-SP, Brazil} \\
+I finished the course with grade 8.58 out of 10, placed as the first student of
+the class. I developed a study on parallel computing with application to the
+$n$-body problem as my final paper. This work was supervised by Prof. Alexandro
+Baldassin.
+
+{\bf MSc in Computer Science} \hfill {\em 2017--2019} \\
+{\sc São Paulo State University (UNESP)} \hfill {\em Rio Claro-SP, Brazil} \\
+I obtained grade A in 5 out of 6 courses attended. I defended the thesis titled
+``Performance Evaluation of Code Optimizations in FPGA Accelerators'' in August,
+2019 under supervision of Prof. Alexandro Baldassin.
+
+{\bf Complementary Training} \hfill {\em 2018} \\
+{\sc University of Alberta} \hfill {\em Edmonton-AB, Canada} \\
+During a research internship, I audited two courses on compilers in the
+University of Alberta. The courses were ``Compiler Design'' and ``Machine
+Learning in Optimizing Compilers'', both lectured by Prof. José Nelson Amaral
+during the Fall of 2018.
+
+{\bf PhD in Computer Science} \hfill {\em 2020--present} \\
+{\sc University of Campinas (Unicamp)} \hfill {\em Campinas-SP, Brazil} \\
+I am currently a PhD candidate at the University of Campinas, working on the
+Computer Systems Laboratory (LSC) under the supervision of Prof. Guido Araújo
+and Prof. Marcio Machado Pereira.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards and Distinctions}
+{\bf Best Academic Performance} $\diamond$ {UNESP} \hfill{\em 2017} \\
+In March 2017, I was awarded a distinction from the São Paulo State University
+for the best academic performance in the Bachelors in Computer Science 2016's
+class.
+
+{\bf Winner of the Parallel Programming Challenge} $\diamond$ {ERAD-SP, ICMC-USP} \hfill{\em 2017} \\
+In April 2017, my team won the Parallel Programming Challenge carried during the
+8th Regional School of High-Performance (ERAD-SP), ICMC-USP, São Carlos-SP,
+Brazil.
+\end{rSection}
+
+\begin{rSection}{Interests}
+Following, a non-exhaustive list of my professional and research interests:
+
+\setlength\multicolsep{5pt}
+\begin{multicols}{2}
+\begin{itemize}[noitemsep]
+  \item high-performance computing;
+  \item compilers;
+  \item machine learning systems;
+  \item computer architecture.
+\end{itemize}
+\end{multicols}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Experience}
+{\it I do not have professional experience.}
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    PROJECTS
+%-----------------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+{\bf Self-Healing Software} \hfill {\em 2014--2015} \\
+{\sc São Paulo State University (UNESP)} \hfill {\em Rio Claro-SP, Brazil} \\
+During the bachelors course, I have participated in two research projects aimed
+at developing better recommendation systems to assist decision-making in
+self-healing systems. I was supervised by Prof. Frank José Affonso and received
+funding from CNPq and FAPESP. During this period I coauthored two papers
+published in international conferences~\cite{SEKE16,SEKE15}.
+
+{\bf Parallel Programming} \hfill {\em 2016} \\
+{\sc São Paulo State University (UNESP)} \hfill {\em Rio Claro-SP, Brazil} \\
+I have developed a term paper where I studied the parallel programming paradigm
+using OpenMP and OpenCL. With the knowledge obtained, I compared the performance
+of implementations in CPU and GPU of the $n$-body problem. This work
+was supervised by Prof. Alexandro Baldassin.
+
+{\bf High-Performance Computing} \hfill {\em 2017--2019} \\
+{\sc São Paulo State University (UNESP)} \hfill {\em Rio Claro-SP, Brazil} \\
+During the masters course, I have investigated workload balancing techniques for
+NUMA systems and, after that, I have analyzed the performance of code
+optimizations aimed at FPGA accelerators present in the literature. I defended
+the thesis titled ``Performance Evaluation of Compiler Optimizations in FPGA
+Accelerators''~\cite{Master19} in August 2019 under the supervision of Prof.
+Alexandro Baldassin. This work was carried with funding from CAPES and FAPESP.
+During this period I have also been a teacher assistant in the undergrad course
+``Microprocessors II''.
+
+{\bf High-Performance Computing} \hfill {\em 2018} \\
+{\sc University of Alberta} \hfill {\em Edmonton-AB, Canada} \\
+I visited the University of Alberta between September 2018 and November 2018 for
+a research internship.  The objetive of this project was to conduct a
+bibliographic survey on existing compiler optimizations for FPGA accelerators. I
+was co-supervised by Profs. José Nelson Amaral (UAlberta) and Guido Araújo
+(IC-Unicamp). This internship was funded by the BEPE/FAPESP program. From this
+collaboration, we published a paper in a brazilian conference~\cite{WSCAD19}.
+
+{\bf OmpCluster Programming Model} \hfill {\em 2020--2021} \\
+{\sc University of Campinas (Unicamp)} \hfill {\em Campinas-SP, Brazil} \\
+During the first two years of my PhD, I was part of a research project that
+consisted in extending the OpenMP programming model for working in cluster
+environments. I was responsible for implementing the first version of the task
+scheduler in the OmpCluster runtime~\cite{ICPP23, SBAC22}. I also created a
+benchmarking tool called OmpcBench that standardized the process of collecting
+benchmark results for the runtime. This tool was adopted by the entire team and
+is continued to be used to this day. During this period I also helped Prof.
+Guido by preparing and lecturing classes about CUDA programming in the
+``Parallel Programming'' course offered at the Institute of Computing at
+Unicamp.
+
+{\bf Machine Learning Systems} \hfill {\em 2022--present} \\
+{\sc University of Campinas (Unicamp)} \hfill {\em Campinas-SP, Brazil} \\
+At present I have been involved in a research project that aims to find more
+efficient techniques for training large deep learning models. More specifically,
+we are investigating how to train models in systems with limited memory by
+checkpointing and restoring intermediate values. We have devised a dynamic
+programming algorithm for partitioning a computational graph into multiple
+stages. We optimize the partitioning scheme for minimizing the amount of data
+flowing from one stage to the next, thus lowering the footprint required to save
+and restore. Additionally, we compress and decompress the data using a lossless
+algorithm for increased efficiency. We plan to submit a research paper to a
+relevant conference in the following months.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Experience}
+
+{\bf Introduction Parallel Programming (MO644)} \hfill {\em 2021--2022} \\
+{\sc University of Campinas (Unicamp)} \hfill {\em Campinas-SP, Brazil} \\
+During the second semester of 2021 I collaborated with Prof. Guido Araújo by
+preparing and lecturing classes on parallel programming. More specifically, I
+was responsible for the lectures related to the CUDA programming model. The
+content included the CUDA programming language, NVIDIA GPU architecture and
+memory hierarchy. This course was offered again in the first semester of 2022.
+
+{\bf Machine Learning Under the Hood (MO436)} \hfill {\em 2022} \\
+{\sc University of Campinas (Unicamp)} \hfill {\em Campinas-SP, Brazil} \\
+During the second semester of 2022 I collaborated with Prof. Guido Araújo by
+preparing and lecturing classes on the Google JAX framework for machine learning
+and numeric computing. The lectures covered how to use the framework and, more
+importantly, how it works under the hood. We have explained how automatic
+differentiation was implemented in JAX and how to extend the library with new
+operations.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills and Language}
+{\bf Programming Languages}
+
+\begin{tabular}{ll} Proficient & C/C++, Python, CUDA \\
+  Familiar   & Rust \\
+\end{tabular}
+
+{\bf Tools} {\small (Ordered by familiarity)}
+\begin{itemize}[noitemsep]
+  \item Linux operating system and utilities ({\tt grep}, {\tt bash}, {\tt awk},
+    {\tt make}, etc);
+  \item C/C++ compilers ({\tt gcc} and {\tt clang});
+  \item Control version system ({\tt git}) and platforms (Github, Gitlab, etc);
+  \item Parallel programming paradigms (OpenMP, CUDA);
+  \item Python packages ({\tt numpy}, {\tt matplotlib}, {\tt seaborn}, etc);
+  \item Debuggers ({\tt gdb}) and profilers ({\tt perf}, {\tt strace}, {\tt
+    ltrace});
+  \item LLVM compiler infrastructure.
+\end{itemize}
+
+{\bf Languages Proficiency}
+\begin{itemize}[noitemsep]
+  \item {\bf Portuguese} (Native) -- comprehension: good; speaking: good; writing: good;
+  \item {\bf English} (Fluent) -- comprehension: good; speaking: good; writing: good;
+  \item {\bf German} (Beginner/A1) -- comprehension: basic; speaking: none; writing: basic;
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Event Attendance}
+{\bf SBAC-PAD'17} $\diamond$ Campinas-SP, Brazil \hfill {\em 2017} \\
+International Symposium on Computer Architecture and High Performance
+Computing
+
+{\bf 8ª ERAD-SP} $\diamond$ ICMC-USP, São Carlos-SP, Brazil \hfill {\em 2017} \\
+Escola Regional de Alto Desempenho do Estado de São Paulo
+
+{\bf SBAC-PAD'19} $\diamond$ Campo Grande-MS, Brazil \hfill {\em 2019} \\
+International Symposium on Computer Architecture and High Performance
+Computing
+
+{\bf CARLA'22} $\diamond$ Porto Alegre-RS, Brazil \hfill {\em 2022} \\
+Latin America High Performance Computing Conference
+
+{\bf CARLA'23} $\diamond$ Cartagena, Colombia \hfill {\em 2023} \\
+Latin America High Performance Computing Conference
+\end{rSection}
+
+\begin{rSection}{Links}
+  \begin{tabular}{ll}
+    Github            & {\tt https://github.com/leiteg} \\
+    Gitlab            & {\tt https://gitlab.com/leiteg} \\
+    Google Scholar    & {\tt https://scholar.google.com/citations?user=F6MZj\_oAAAAJ} \\
+    Lattes Curriculum & {\tt https://lattes.cnpq.br/0392351138118593} \\
+  \end{tabular}
+\end{rSection}
+
+\begin{rSection}{Publications}
+\bibliographystyle{abbrv}
+\renewcommand{\section}[2]{}
+\bibliography{references}
+\end{rSection}
+
+\vfill \hfill {\em Last updated: \today.}
+
+\end{document}
